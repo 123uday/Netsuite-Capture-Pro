@@ -1,0 +1,14 @@
+{
+  "name": "netsuite-capture-pro",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test",
+    "test:browser": "node scripts/browser-check.mjs",
+    "test:element-browser": "node scripts/element-browser-check.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
